@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Mageplaza_HelloWorld::Css/grid.css"/>
+
+    </head>
+      <referenceContainer name="content">
+        <block class="Mageplaza\HelloWorld\Block\Webelephant" name="webelephant" template="Mageplaza_HelloWorld::blog.phtml" />
+    </referenceContainer>
+</page>
